@@ -24,7 +24,7 @@ def receive():
             print("An error occured!")
             client.close()
             break
-# описание функции добавили для поддержки кирилицы encode('utf-8')
+
 def write():
     while True:
         message = '{}: {}'.format(nickname, input(''))
